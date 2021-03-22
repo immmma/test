@@ -9,7 +9,7 @@ import time
 
 url = "https://mulamen.com/shop/shopdetail.html?branduid=10182737&xcode=008&mcode=001&scode=&type=Y&sort=manual&cur_code=008001&GfDT=bm1%2FW10%3D"
 
-driver = webdriver.Chrome('/Users/iyungyu/Downloads/Playstore Crawler/chromedriver4')
+driver = webdriver.Chrome('/Users/BAT_202008/Desktop/PythonWorkspace/chromedriver')
 driver.implicitly_wait(1)
 driver.get(url)
 driver.implicitly_wait(1)
